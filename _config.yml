@@ -1,0 +1,36 @@
+# Site settings
+title: Danylo Khilko
+description: 'Business Card Page'
+url: dkhilko.github.io
+baseurl: /dkhilkopage
+profilepic: '/images/dk.jpg'
+bkimage: '/images/kotyk.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'all.js'
+
+author:
+  name: 'Danylo Khilko'
+  email: dkhilko@ukr.net
+ # twitter_username: thomzuehlke
+  facebook_username: danylo.khilko
+ # github_username:
+  linkedin_username: danylo-khilko-785137153
+  #meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
