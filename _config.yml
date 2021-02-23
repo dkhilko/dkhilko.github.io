@@ -6,16 +6,15 @@ baseurl: ''
 profilepic: '/images/dk.jpg'
 bkimage: '/images/kotyk.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'all.js'
+font_awesome: '4a93e3e01d.js'
 
 author:
   name: 'Danylo Khilko'
   email: dkhilko@ukr.net
- # twitter_username: thomzuehlke
   facebook_username: danylo.khilko
  # github_username:
   linkedin_username: danylo-khilko-785137153
-  #meetup_name: Azure-Meetup-Rostock-MV
+
 
 # Build settings
 destination: _site
@@ -25,6 +24,9 @@ highlighter: rouge
 sass:
     sass_dir: _sass
     style: compressed
+plugins: 
+- jekyll-sitemap
+- jekyll-seo-tag
 
 kramdown:
   # use Github Flavored Markdown
@@ -33,4 +35,4 @@ kramdown:
   hard_wrap: false
 
 #plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['README.md']

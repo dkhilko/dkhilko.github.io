@@ -1,21 +1,12 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: 1
-  repo:
-  img:
-  desc: Coming soon
+- name: D
+  website:
+  img: /images/HanS.png
+  desc:
 
-- name: 1
-  repo: j
-  img:
-  desc: Coming soon
-
-- name: 2
-  repo: scripts
-  img:
-  desc: Coming soon
-
-- name: 3
-  repo:
-  desc: Coming Soon
+- name: Geometry
+  website:
+  img: /images/screenome.PNG
+  desc:
