@@ -1,6 +1,6 @@
 # Site settings
 title: Danylo Khilko
-description: 'Business Card Page'
+description: "Danylo Khilko's home page"
 url: dkhilko.github.io
 baseurl: ''
 profilepic: '/images/dk.jpg'
