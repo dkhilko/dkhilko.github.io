@@ -12,7 +12,7 @@ To use the theme perform next steps:
 
 To run the site locally:
 1. Using Ruby command prompt go to the directory with site
-2. Run bundle install
+2. Run `bundle install`
 3. Then run `jekyll build `
 4. Finally `jekyll serve`
 
