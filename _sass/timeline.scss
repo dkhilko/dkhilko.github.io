@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 0px;
     width: 0px; // draw vertical timeline line (2px)
     margin-left: -1.5px;
     background-color: #f1f1f1;
@@ -70,10 +70,10 @@
 }
 
 .img-me {
-    z-index: 100;
+    z-index: 300;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -196,14 +196,14 @@
 
     .timeline>li .timeline-image {
         visibility: visible;
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         margin-left: -75px;
     }
 
     .img-me {
-        width: 135px;
-        height: 135px;
+        width: 165px;
+        height: 165px;
     }
 
     .timeline>li .timeline-image h4 {
